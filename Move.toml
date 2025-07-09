@@ -1,0 +1,17 @@
+[package]
+name = "exploring_move_aptos"
+version = "1.0.0"
+authors = []
+
+[addresses]
+exploring_move_aptos = "0x1cecfef9e239eff12fb1a3d189a121c37f48908d86c0e9c02ec103e0a05ddebb"
+
+[dev-addresses]
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
